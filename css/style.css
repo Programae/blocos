@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222;
+    word-wrap: break-word;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #438aa5;
+    font-weight: 700;
+}
+
+h1 {
+    min-height: 40px;
+    margin: 20px -50px;
+    padding: 15px 50px;
+    background: #438aa5;
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h2 {
+    height: 40px;
+    margin: 50px 0 50px -50px;
+    padding: 0 0 0 50px;
+    background: #438aa5;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    border: 0;
+    border-left: 0;
+    color: white;
+}
+
+h2:before {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: -20px 0 0;
+    padding: 0 20px;
+}
+
+.cover h2, .requirements h2, .worksheet h2, .lesson h2 {
+    padding: 0 0 0 20px;
+}
+
+.cover .overview.make h2:before {
+    content: url('images/icons/idea.png');
+}
+
+.cover .overview.learn h2:before {
+    content: url('images/icons/brain.png');
+}
+
+.cover .overview.do h2:before {
+    content: url('images/icons/idea.png');
+}
+
+.cover .overview.study h2:before {
+    content: url('images/icons/book.png');
+}
+
+.cover .overview.hardware h2:before {
+      content: url('images/icons/hardware.png');
+}
+.cover .overview.exclamation h2:before {
+      content: url('images/icons/exclamation.png');
+}
+
+.cover .overview.software h2:before {
+      content: url('images/icons/software.png');
+}
+
+.requirements h2.hardware:before {
+    content: url('images/icons/hardware.png');
+}
+
+.requirements h2.software:before {
+    content: url('images/icons/software.png');
+}
+
+.requirements h2.extras:before {
+    content: url('images/icons/extras.png');
+}
+
+.worksheet h2:nth-of-type(1):before {
+    content: url('images/icons/step1.png');
+}
+
+.worksheet h2:nth-of-type(2):before {
+    content: url('images/icons/step2.png');
+}
+
+.worksheet h2:nth-of-type(3):before {
+    content: url('images/icons/step3.png');
+}
+
+.worksheet h2:nth-of-type(4):before {
+    content: url('images/icons/step4.png');
+}
+
+.worksheet h2:nth-of-type(5):before {
+    content: url('images/icons/step5.png');
+}
+
+.worksheet h2:nth-of-type(6):before {
+    content: url('images/icons/step6.png');
+}
+
+.worksheet h2:nth-of-type(7):before {
+    content: url('images/icons/step7.png');
+}
+
+.worksheet h2:nth-of-type(8):before {
+    content: url('images/icons/step8.png');
+}
+
+.worksheet h2:nth-of-type(9):before {
+    content: url('images/icons/step9.png');
+}
+
+.worksheet h2:nth-of-type(10):before {
+    content: url('images/icons/step10.png');
+}
+
+.lesson h2:before {
+    content: url('images/icons/scroll.png');
+}
+
+.lesson h2:nth-of-type(1):before {
+    content: url('images/icons/question.png');
+}
+
+.lesson h2:nth-of-type(2):before {
+    content: url('images/icons/extras.png');
+}
+
+.lesson h2:nth-of-type(3):before {
+    content: url('images/icons/checklist.png');
+}
+
+.lesson h2:nth-of-type(4):before {
+    content: url('images/icons/step1.png');
+}
+
+.lesson h2:nth-of-type(5):before {
+    content: url('images/icons/step2.png');
+}
+
+.lesson h2:nth-of-type(6):before {
+    content: url('images/icons/step3.png');
+}
+
+.lesson h2:nth-of-type(7):before {
+    content: url('images/icons/exclamation.png');
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 22px;
+    height: 22px;
+    width: 500px;
+    margin: 0;
+    background: white;
+    border: 0;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    border-width: 0 5px;
+    border-style: solid;
+    border-color: #438aa5;
+}
+
+header.header {
+    width: 900px;
+    height: 60px;
+    background: #438aa5 url('images/programae_.png') no-repeat;
+    overflow: auto;
+    font-family: "Roboto Slab";
+}
+
+header.header a.heading {
+    display: block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-indent: 60px;
+    line-height: 60px;
+}
+
+nav.nav ul li a {
+    color: #438aa5;
+    text-decoration: none;
+}
+
+nav.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav.breadcrumbs {
+    float: left;
+}
+
+nav.breadcrumbs ul {
+    margin: 10px 0 0 10px;
+    padding: 0;
+}
+
+nav.breadcrumbs ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 10px;
+}
+
+nav.breadcrumbs ul li + li:before {
+    float: left;
+    width: 20px;
+    content: '>';
+    text-align: center;
+}
+
+nav.resource-categories {
+    float: right;
+    margin: 10px 20px 30px;
+}
+
+nav.resource-categories ul {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+nav.resource-categories ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 500;
+    color: #438aa5;
+}
+
+.teach nav.resource-categories ul li.teach {
+    font-weight: 700;
+}
+
+.learn nav.resource-categories ul li.learn {
+    font-weight: 700;
+}
+
+.make nav.resource-categories ul li.make {
+    font-weight: 700;
+}
+
+nav.resource-categories ul li + li:before {
+    content: '/';
+    margin: 10px;
+}
+
+.main {
+    margin: 60px auto 0;
+    clear: both;
+}
+
+.cover .cover-image {
+    text-align: center;
+}
+
+nav.buttons {
+    margin: 50px 0;
+    border-top: 4px solid #438aa5;
+}
+
+nav.buttons a.button {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    margin: 50px;
+    background: #438aa5;
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav.buttons.one a.button {
+    margin: 50px auto;
+    float: none;
+}
+
+.lessons nav.buttons {
+    border-top: 0;
+}
+
+.lessons nav.buttons h2 {
+    width: 100%;
+    min-height: 20px;
+    margin: 0 0 20px -20px;
+    background: none;
+    color: #438aa5;
+    clear: both;
+}
+
+.lessons nav.buttons a {
+    margin: 0 50px 50px;
+}
+
+.requirements ul.hardware-items {
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.requirements ul.hardware-items li {
+    width: 194;
+    float: left;
+    margin: 5px 0;
+    list-style-type: none;
+    border-color: #438aa5;
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+}
+
+.requirements ul.hardware-items li:nth-of-type(4n+1) {
+    border-left-width: 3px;
+}
+
+.requirements ul.hardware-items li img {
+    width: 200px;
+    height: 167px;
+    margin: 0;
+}
+
+.requirements ul.hardware-items li .detail {
+    width: 194px;
+    height: 36px;
+    padding: 10px 3px;
+    background: #438aa5;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.content {
+    margin: 0 50px;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.content ul, .content ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.content li {
+    margin: 20px 0;
+}
+
+.content ul li {
+    list-style-type: square;
+}
+
+.content li p {
+    margin: 0;
+}
+
+.content ol li {
+    padding: 0;
+}
+
+.content img {
+    display: block;
+    margin: 40px auto;
+    max-width: 760px;
+}
+
+.content pre, .content code {
+    background: #f2f1f0;
+    border: 1px solid #ddd;
+    font-family: "Courier", monospace;
+    padding: 2px 5px;
+    font-size: 16px;
+}
+
+.content pre {
+    width: 700px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: pre-wrap;
+}
+
+.content pre code {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {
+    background: transparent;
+}
+
+.content table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.content table thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.content table thead {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.content table tr {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.content table th {
+    border: 1px solid #ddd;
+    padding: 6px 13px;
+    font-weight: bold;
+}
+
+.content table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.content table td {
+    border: 1px solid #ddd;
+    padding: 6px 13px;
+}
+
+footer.footer {
+    margin: 80px 50px 0;
+    padding: 0 0 20px;
+    height: 30px;
+}
+
+footer.footer p {
+    margin: 0 0 0 10px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+}
+
+footer.footer small {
+    float: left;
+    width: 680px;
+    margin-top: -1px;
+}
+
+footer.footer a.logo {
+    height: 32px;
+    float: left;
+    display: block;
+    text-indent: -9999px;
+}
+
+footer.footer a.cc {
+    background: url('images/creative-commons.png');
+    width: 88px;
+}
+
+footer.footer a.gh {
+    background: url('images/octocat.png');
+    width: 32px;
+    float: right;
+}
+
+footer.footer a:link, footer.footer a:visited {
+    color: #438aa5;
+    text-decoration: none;
+}
+
+footer.footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        width: 100%;
+        border: 0;
+    }
+
+    .container * {
+        max-width: 100% !important;
+    }
+
+    .main {
+        width: 96%;
+        margin: 0 2%;
+        padding: 0;
+    }
+
+    h1, h2, h3 {
+        width: auto;
+        margin: 50px -50px 50px -20px;
+        padding: 15px 20px;
+    }
+
+    .content p {
+        width: 96%;
+        margin: 20px 0;
+    }
+
+    .content ol, .content ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content ol li, .content ul li {
+        margin: 0 0 0 30px;
+        padding: 0;
+    }
+
+    .content pre {
+        width: 92%;
+        margin: 20px 2%;
+        padding: 10px 2%;
+    }
+}
