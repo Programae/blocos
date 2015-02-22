@@ -6,7 +6,7 @@ description: >
   Code.org. O Programaê é um movimento para ensino de programação de jovens e
   esta no projeto de Inovação nas Escolas da Fundação Lemann. Educador, você
   pode ensinar seus alunos a programar.
-#baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blocos" # the subpath of your site, e.g. /blog/
 #url: "http://programae.github.io/blocos" # the base hostname & protocol for your site
 github_username:  programae
 
