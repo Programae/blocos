@@ -212,7 +212,7 @@ h6 {
 header.header {
     width: 900px;
     height: 60px;
-    background: #438aa5 url('images/programae_.png') no-repeat;
+    background: #438aa5;
     overflow: auto;
     font-family: "Roboto Slab";
 }
