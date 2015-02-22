@@ -1,14 +1,19 @@
 # Site settings
 title: Programaê
 email: tiago@fundacaolemann.org.br
-description: > 
+description: >
   Planos de Aula do curso de blocos do Programaê, tecnologias envolvidas Scratch e
   Code.org. O Programaê é um movimento para ensino de programação de jovens e
   esta no projeto de Inovação nas Escolas da Fundação Lemann. Educador, você
   pode ensinar seus alunos a programar.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://programae.github.io/blocos" # the base hostname & protocol for your site
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://programae.github.io/blocos" # the base hostname & protocol for your site
 github_username:  programae
 
 # Build settings
 markdown: kramdown
+
+permalink:   /:categories/:title/
+
+
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

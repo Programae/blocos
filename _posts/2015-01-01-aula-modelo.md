@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aula 1
+title: Aula Modelo
 excerpt: ""
 modified: 2013-05-31
 tags: [scratch, codeorg, programaê, tutorial]
