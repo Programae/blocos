@@ -1,5 +1,8 @@
 # Planos de Aula Programaê!
 
+Planos de aula utilizados no laboratório de programação no projeto de inovação nas escolas da Fundação Lemann
+
+
 ## Contato:
 
 Tiago Maluta <tiago@fundacaolemann.org.br>
@@ -9,7 +12,10 @@ Tiago Maluta <tiago@fundacaolemann.org.br>
 TBA
 
 
+#Contribuidores
 
+Tiago Maluta
+Maristela Alcântara 
 
 
 
