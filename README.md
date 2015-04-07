@@ -15,7 +15,8 @@ TBA
 #Contribuidores
 
 Tiago Maluta
-Maristela Alcântara 
+Maristela Alcântara
+Adelmo Eloy
 
 
 
