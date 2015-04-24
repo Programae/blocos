@@ -5,7 +5,7 @@ Planos de aula utilizados no laboratório de programação no projeto de inovaç
 
 ## Contato:
 
-Tiago Maluta <tiago@fundacaolemann.org.br>
+alteração no nome Tiago Maluta <tiago@fundacaolemann.org.br>
 
 ## Como contribuir
 
@@ -17,6 +17,3 @@ TBA
 Tiago Maluta
 Maristela Alcântara
 Adelmo Eloy
-
-
-
